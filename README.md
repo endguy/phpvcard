@@ -1,2 +1,2 @@
 # phpvcard
-PHP Plugin to create vCard
+PHP Plugin to create downloadable vCards in vcf format
