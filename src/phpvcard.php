@@ -121,7 +121,7 @@
 
 		    // Set Content type
 	    	header('Content-type: text/x-vcard; charset=utf-8');
-	    	header('Content-Disposition: attachment; filename="' . $this->fields['firstName'] . '-' . $this->fields['lastName'] . '"vcard.vcf"');
+	    	header('Content-Disposition: attachment; filename=vcard.vcf"');
 			
 			$card  = "BEGIN:VCARD\n";
 			$card .= "VERSION:2.1\n";
